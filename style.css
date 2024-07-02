@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #555; /* Darker text color for better contrast */
+}
+
+header {
+    background-color: #FF5722; /* Orange header background */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em; /* Larger header font size */
+    font-weight: 700;
+    text-transform: uppercase; /* Uppercase text */
+    margin: 0;
+}
+
+header p {
+    font-size: 1.1em; /* Slightly larger paragraph font size */
+    margin-top: 15px; /* Increased top margin */
+}
+
+section {
+    padding: 40px; /* Even padding on all sides */
+    max-width: 900px; /* Increased maximum width */
+    margin: 0 auto;
+    background-color: #fff; /* White background */
+    margin-bottom: 30px; /* Increased bottom margin */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
+    border-radius: 10px; /* Rounded corners */
+}
+
+section h2 {
+    font-size: 2.5em; /* Larger section header font size */
+    margin-bottom: 25px; /* Increased bottom margin */
+    color: #FF5722; /* Orange section header color */
+}
+
+section#about img {
+    max-width: 20%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center image */
+    margin: 0 auto 20px; /* Center image with bottom margin */
+}
+
+section p {
+    font-size: 1.1em; /* Slightly larger paragraph font size */
+    line-height: 1.8; /* Increased line height for readability */
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    background-color: #f0f0f0; /* Light gray list item background */
+    margin-bottom: 15px; /* Increased bottom margin */
+    padding: 12px; /* Increased padding */
+    border-radius: 6px; /* Slightly rounded corners */
+    font-size: 1.1em; /* Slightly larger font size */
+}
+
+a {
+    color: #FF5722; /* Orange link color */
+    font-weight: 600; /* Slightly bold font weight */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#contact p {
+    margin: 10px 0; /* Maintain top and bottom margin */
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 40px 10px; /* Reduced padding */
+    }
+
+    header h1 {
+        font-size: 2.5em; /* Reduced font size */
+    }
+
+    header p {
+        font-size: 1em; /* Reduced font size */
+    }
+
+    section {
+        padding: 30px; /* Reduced padding */
+    }
+
+    section h2 {
+        font-size: 2em; /* Reduced font size */
+    }
+}
